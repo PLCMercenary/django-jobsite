@@ -55,7 +55,7 @@
       <p>
         <a href="mailto:plcmercenary@tuta.io" class="btn btn-primary my-2">Send me an Email</a>
       </p>
-      <img src="{% static 'Scooter-NoDak.jpg' %}" height=300> </img>
+      <img src="{% static 'Scooter-Nodak.jpg' %}" height=300> </img>
     </div>
   </section>
 
@@ -68,7 +68,7 @@
         <div class="col-md-4">
           <a href="{% url 'detail' job.id %}">
           <div class="card mb-4 shadow-sm">
-            <img class="bd-placeholder-img card-img-top" src="{{ job.image.url }}">
+            <img class="bd-placeholder-img card-img-top" src="{{ job.image.url }}" height=250>
              <div class="card-body">
               <p class="card-text"> {{ job.summary }}</p>
             </div>
